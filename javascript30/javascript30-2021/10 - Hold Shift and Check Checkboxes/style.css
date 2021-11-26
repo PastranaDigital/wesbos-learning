@@ -1,0 +1,58 @@
+html {
+    font-family: sans-serif;
+    background: #ffc600;
+  }
+
+  .inbox {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+  }
+
+  .item:last-child {
+    border-bottom: 0;
+  }
+
+  input:checked + p {
+    background: #F9F9F9;
+    text-decoration: line-through;
+  }
+
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+
+  p {
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    flex: 1;
+    font-family:'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+    border-left: 1px solid #D1E2FF;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 50px auto;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: .5rem 1.5rem;
+    background-color: #ec8dd4;
+  }
+
+  button:hover {
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+  }

@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+  background: #ffc600;
+}
+
+.photobooth {
+  background: white;
+  max-width: 150rem;
+  margin: 2rem auto;
+  border-radius: 3rem;
+  padding: 2rem;
+}
+
+/*clearfix*/
+.photobooth:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.photo {
+  width: 100%;
+  float: left;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.controls {
+  padding: 1rem;
+  display: flex;
+}
+
+.player {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width:200px;
+  margin-top: 1.5rem;
+  margin-right: .25rem;
+  border-radius: 2rem;
+}
+
+/*
+  Strip!
+*/
+
+.strip {
+  padding: 2rem;
+}
+
+.strip img {
+  width: 100px;
+  overflow-x: scroll;
+  padding: 0.8rem 0.8rem 2.5rem 0.8rem;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  background: white;
+}
+
+.strip a:nth-child(5n+1) img { transform: rotate(10deg); }
+.strip a:nth-child(5n+2) img { transform: rotate(-2deg); }
+.strip a:nth-child(5n+3) img { transform: rotate(8deg); }
+.strip a:nth-child(5n+4) img { transform: rotate(-11deg); }
+.strip a:nth-child(5n+5) img { transform: rotate(12deg); }
+
+/* button {
+  
+} */
+
+button,
+label {
+  font: 1.5rem 'Fira Sans', sans-serif;
+}
+
+label, input {
+  pointer-events: none;
+}
+
+input {
+  margin: .4rem;
+}
+
+button, .effect-toggle {
+  padding: 1.5rem 2rem;
+  border: 0;
+  color: white;
+  background: linear-gradient(35deg, rgb(71, 71, 136), rgb(20, 27, 63));
+  border-radius: 1rem;
+  margin: 0 1rem 1rem;
+}
+
+.effect-toggle {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+  /* width: 15rem; */
+}
+
+button:hover,
+.effect-toggle:hover {
+  background: rgb(71, 71, 136);
+  cursor: pointer;
+}
