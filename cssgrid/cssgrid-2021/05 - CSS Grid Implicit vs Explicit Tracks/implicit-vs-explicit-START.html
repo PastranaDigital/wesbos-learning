@@ -14,11 +14,19 @@
     <div class="item">2</div>
     <div class="item">3</div>
     <div class="item">4</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
   </div>
 
   <style>
     .container {
       display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 200px 400px;
+      /* implicit = undefined by css (ex: the rows) */
+      grid-auto-rows: 300px 100px; /* any extra rows now are set implicitly */
     }
   </style>
 </body>
