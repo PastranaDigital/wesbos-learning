@@ -54,23 +54,31 @@
 
   <style>
     /*
-      justify-items:
+      justify-items: (direct children of the container)
       align-items:
 
       justify-content:
       align-content:
 
+      ( on the item on a case-by-case basis)
+      justify-self: 
       align-self:
-      justify-self:
 
-      justify-* is row axis
-      align-* is column axis
+      justify-* is row axis (left to right)
+      align-* is column axis (top to bottom)
     */
 
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns: repeat(10, 1fr);
+      grid-template-columns: repeat(5, 120px);
+      grid-template-rows: repeat(5, 100px);
+      place-items: stretch stretch;
+      justify-content: space-between;
+    }
+
+    .itm {
+      background: greenyellow;
     }
   </style>
 </body>

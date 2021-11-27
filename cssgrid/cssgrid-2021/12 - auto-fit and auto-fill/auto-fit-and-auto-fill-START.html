@@ -37,6 +37,10 @@
       display: grid;
       grid-gap: 20px;
       border: 10px solid var(--yellow);
+
+      /* makes as many columns as can fill the screen */
+      grid-template-columns: repeat(auto-fill, 150px);
+      /* can also use auto-fit */
     }
   </style>
 </body>
