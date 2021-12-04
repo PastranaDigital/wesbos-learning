@@ -31,6 +31,14 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      height: 600px;
+      /* this does not take into account the gap 20px when doiong 100% total */
+      /* grid-template-columns: 25% 25% 25% 25%; */
+      /* instead use the FR unit (FRactional unit) amount of space left after layout*/
+      border: 10px solid var(--black);
+      /* grid-template-columns: 100px 2fr 1fr; */
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 10fr 1fr;
     }
   </style>
 </body>

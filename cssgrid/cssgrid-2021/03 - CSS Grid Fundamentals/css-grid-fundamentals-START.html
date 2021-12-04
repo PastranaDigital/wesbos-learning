@@ -9,6 +9,30 @@
 </head>
 
 <body>
+<div class="container">
+  <!-- .item{$}*10 -->
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+  <div class="item">7</div>
+  <div class="item">8</div>
+  <div class="item">9</div>
+  <div class="item">10</div>
+</div>
+<style>
+  .container {
+    /* this being on the parent will make all of the children grid items */
+    display: grid;
+    /* grid-template-columns: repeat(5, 100px); */
+    /* grid-template-columns: 200px 300px 100px auto; */
+    grid-template-columns: 200px auto;
+    grid-template-rows: 200px 100px 400px;
+    grid-gap: 20px;
+  }
+</style>
 
 </body>
 
