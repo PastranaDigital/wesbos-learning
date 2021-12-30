@@ -33,6 +33,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
+/*? order by default is order: 0, bigger number goes to end and smaller number goes to start */
 .box {
   flex:1;
 }
