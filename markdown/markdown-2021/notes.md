@@ -107,7 +107,7 @@ Some words
 
 Another set of words
 
-===
+=====
 
 Important to note that there needs to be a line between the HR and text otherwise it will be read as H1 or H2
 
@@ -115,4 +115,27 @@ Important to note that there needs to be a line between the HR and text otherwis
 
 > You miss 100% of the shots you don't take.
 > 
-> - **Wayne Gretzky**
+> **Wayne Gretzky**
+
+## Code Blocks
+<!-- indentation method -->
+Here is my code:
+
+    function toggleActive(e) {
+        console.log(e.propertyName);
+        if(e.propertyName.includes('flex')) {
+            this.classList.toggle('open-active');
+        }
+    }
+
+<!-- using triple back ticks -->
+Here is my code:
+
+```
+function toggleActive(e) {
+    console.log(e.propertyName);
+    if(e.propertyName.includes('flex')) {
+        this.classList.toggle('open-active');
+    }
+}
+```
