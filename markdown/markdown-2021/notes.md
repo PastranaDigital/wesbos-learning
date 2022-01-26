@@ -87,7 +87,7 @@ If you want to learn [React][react], you can learn at React for beginners.com - 
         
         ![](https://unsplash.it/200/200?random)
         ```js
-            console.log(`is this working ${answer});
+            console.log(`is this working ${answer}`);
         ```
 2. Bowl
 3. Stir
@@ -130,8 +130,8 @@ Here is my code:
 
 <!-- using triple back ticks -->
 Here is my code:
-
-```
+<!-- adding the language will add highlighting -->
+```js
 function toggleActive(e) {
     console.log(e.propertyName);
     if(e.propertyName.includes('flex')) {
