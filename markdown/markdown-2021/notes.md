@@ -150,3 +150,12 @@ var x = 100;
 - var y = 200;
 + var y = 300;
 ```
+
+
+## Tables
+Where you place the : decides (left, center or right justify)
+
+|Dog's Name| Dog's Age|
+|:------|:-------:|
+|Snickers|2|
+|Penny| 4|
