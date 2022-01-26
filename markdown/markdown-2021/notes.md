@@ -159,3 +159,10 @@ Where you place the : decides (left, center or right justify)
 |:------|:-------:|-----:|
 |Snickers|2|01-25-2022|
 |Penny| 4|04-22-2022|
+
+
+## Checkboxes
+
+* [ ] item 1
+* [x] item 2
+* [ ] item 3
