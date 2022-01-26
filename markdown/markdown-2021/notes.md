@@ -92,3 +92,27 @@ If you want to learn [React][react], you can learn at React for beginners.com - 
 2. Bowl
 3. Stir
 4. Bake
+
+## Line breaks
+This is cool<br>
+This really is.
+
+And so is this.
+
+## Horizontal Rules
+
+Some words
+
+---
+
+Another set of words
+
+===
+
+Important to note that there needs to be a line between the HR and text otherwise it will be read as H1 or H2
+
+## Block quotes
+
+> You miss 100% of the shots you don't take.
+> 
+> - **Wayne Gretzky**
