@@ -49,14 +49,34 @@ If you want to learn [React][react], you can learn at React for beginners.com - 
 
 ## Images
 ! = it is an image
+
 [] = the alt text for the image
+
 () = the src url link
 
 ![Wow great pic!](../markdown.png "Tooltip that will be shown")
 
 ![unsplash image](https://unsplash.it/400/400)
+
 ![Cute pic][pic]
 
 [pic]: https://unsplash.it/400/401
 
 [![Thumbnail](https://unsplash.it/50/50?image=1000)](https://unsplash.it/400/400?image=1000)
+
+
+## Lists
+### Ingredients
+
+- milk
+- eggs
+- bread
+- bacon
+
+
+## Steps
+<!-- No need to give numbers, it will get figured out by the viewer -->
+1. Combine
+1. Bowl
+2. Stir
+1. Bake
