@@ -155,7 +155,7 @@ var x = 100;
 ## Tables
 Where you place the : decides (left, center or right justify)
 
-|Dog's Name| Dog's Age|
-|:------|:-------:|
-|Snickers|2|
-|Penny| 4|
+|Dog's Name| Dog's Age| Dog's Birthday|
+|:------|:-------:|-----:|
+|Snickers|2|01-25-2022|
+|Penny| 4|04-22-2022|
