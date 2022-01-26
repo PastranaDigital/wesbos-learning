@@ -139,3 +139,14 @@ function toggleActive(e) {
     }
 }
 ```
+
+### Using it inline
+
+Hey did you try `var x=100;`?
+
+### Showing the difference needed to occur
+```diff
+var x = 100;
+- var y = 200;
++ var y = 300;
+```
