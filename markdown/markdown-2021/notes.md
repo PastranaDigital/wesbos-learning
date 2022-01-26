@@ -82,7 +82,9 @@ If you want to learn [React][react], you can learn at React for beginners.com - 
 1. Combine
    1. sift the flour
       1. yes sift it
+        
         This is inline
+        
         ![](https://unsplash.it/200/200?random)
         ```js
             console.log(`is this working ${answer});
