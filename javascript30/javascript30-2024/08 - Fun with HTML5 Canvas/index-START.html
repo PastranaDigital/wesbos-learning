@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>HTML5 Canvas</title>
-  <link rel="icon" href="https://fav.farm/🔥" />
-</head>
-<body>
-<canvas id="draw" width="800" height="800"></canvas>
-<script>
-</script>
 
-<style>
-  html, body {
-    margin: 0;
-  }
-</style>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 Canvas</title>
+	<link rel="icon" href="https://fav.farm/🔥" />
+	<script type="module" defer src="controller.js"></script>
+</head>
+
+<body>
+	<div class="options">
+		<div class="option1"></div>
+		<div class="option2"></div>
+		<div class="option3"></div>
+		<div class="text">
+			<span>+</span>
+		</div>
+	</div>
+	<canvas id="draw" width="800" height="800"></canvas>
+	<script>
+	</script>
+
+	<style>
+		html,
+		body {
+			margin: 0;
+		}
+
+		.options {
+			display: flex;
+			gap: 1rem;
+			background-color: rgb(24, 121, 117);
+			border: 2px solid rgb(24, 121, 117);
+			color: white;
+			font-size: 2rem;
+			text-align: center;
+			position: fixed;
+			bottom: 1rem;
+			left: 1rem;
+			cursor: pointer;
+			transition: all 0.25s ease-in-out;
+			flex-direction: column;
+		}
+
+		.options,
+		.options>* {
+			padding: 1rem;
+			border-radius: 5rem;
+			width: 2.5rem;
+			height: 2.5rem;
+		}
+
+		.option1,
+		.option2,
+		.option3 {
+			display: none;
+			background-color: lightgray;
+		}
+
+		.text {
+			background-color: lightseagreen;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			transform: rotate(0);
+			transition: all 0.5s ease;
+		}
+
+		.rotate {
+			transform: rotate(45deg);
+		}
+
+		.active {
+			height: 20rem;
+			display: flex;
+		}
+	</style>
 
 </body>
+
 </html>
